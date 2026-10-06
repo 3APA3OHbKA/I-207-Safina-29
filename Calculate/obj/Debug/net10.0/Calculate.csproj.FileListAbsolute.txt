@@ -1,0 +1,4 @@
+C:\Users\25301214\source\repos\Calculate\Calculate\obj\Debug\net10.0\Calculate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25301214\source\repos\Calculate\Calculate\obj\Debug\net10.0\Calculate.AssemblyInfoInputs.cache
+C:\Users\25301214\source\repos\Calculate\Calculate\obj\Debug\net10.0\Calculate.AssemblyInfo.cs
+C:\Users\25301214\source\repos\Calculate\Calculate\obj\Debug\net10.0\Calculate.csproj.CoreCompileInputs.cache
