@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+namespace CalculatorVer07
+{
+    internal class Program
+    {
+        public static void Main()
+        {
+            while (true)
+            {
+                Console.WriteLine("0  - Счёт процентов");
+                Console.WriteLine("1  - Умножение");
+                Console.WriteLine("2  - Деление");
+                Console.WriteLine("3  - Вычитание");
+                Console.WriteLine("4  - Сложение");
+                Console.WriteLine("5  - Сумма массива");
+                Console.WriteLine("6  - Работа с массивом (вывод)");
+                Console.WriteLine("7  - Максимум массива");
+                Console.WriteLine("8  - Минимум массива");
+                Console.WriteLine("9  - Факториал");
+                Console.WriteLine("10 - Деление с остатком и целочисленное");
+                Console.WriteLine("11 - Обратное процентам (найти число по проценту)");
+                Console.Write("Выберите задачу: ");
+                int choice = int.Parse(Console.ReadLine());
+
+                Math math = new Math();
+                double result = math.Execute(choice);
+                Console.WriteLine(result);
+
+                Console.Write("Хотите продолжить? Да/Нет");
+                string answer = Console.ReadLine();
+                if (answer == "Нет")
+                {
+                    break;
+                }
+            }
+        }
+    }
+}
