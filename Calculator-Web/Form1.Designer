@@ -1,0 +1,342 @@
+﻿namespace Calculator_Web
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.zero = new System.Windows.Forms.Button();
+            this.comma = new System.Windows.Forms.Button();
+            this.equals = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.plus = new System.Windows.Forms.Button();
+            this.num3 = new System.Windows.Forms.Button();
+            this.num2 = new System.Windows.Forms.Button();
+            this.num1 = new System.Windows.Forms.Button();
+            this.minus = new System.Windows.Forms.Button();
+            this.num6 = new System.Windows.Forms.Button();
+            this.num5 = new System.Windows.Forms.Button();
+            this.num4 = new System.Windows.Forms.Button();
+            this.multiplication = new System.Windows.Forms.Button();
+            this.num9 = new System.Windows.Forms.Button();
+            this.num8 = new System.Windows.Forms.Button();
+            this.num7 = new System.Windows.Forms.Button();
+            this.del = new System.Windows.Forms.Button();
+            this.persont = new System.Windows.Forms.Button();
+            this.st = new System.Windows.Forms.Button();
+            this.log = new System.Windows.Forms.Button();
+            this.Вывод = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // zero
+            // 
+            this.zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.zero.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.zero.Location = new System.Drawing.Point(88, 276);
+            this.zero.Name = "zero";
+            this.zero.Size = new System.Drawing.Size(75, 40);
+            this.zero.TabIndex = 0;
+            this.zero.Text = "0";
+            this.zero.UseVisualStyleBackColor = false;
+            // 
+            // comma
+            // 
+            this.comma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.comma.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comma.Location = new System.Drawing.Point(169, 276);
+            this.comma.Name = "comma";
+            this.comma.Size = new System.Drawing.Size(75, 40);
+            this.comma.TabIndex = 1;
+            this.comma.Text = ",";
+            this.comma.UseVisualStyleBackColor = false;
+            // 
+            // equals
+            // 
+            this.equals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.equals.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.equals.Location = new System.Drawing.Point(250, 276);
+            this.equals.Name = "equals";
+            this.equals.Size = new System.Drawing.Size(75, 40);
+            this.equals.TabIndex = 2;
+            this.equals.Text = "=";
+            this.equals.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.Location = new System.Drawing.Point(7, 276);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 40);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "AC";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // plus
+            // 
+            this.plus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.plus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.plus.Location = new System.Drawing.Point(250, 230);
+            this.plus.Name = "plus";
+            this.plus.Size = new System.Drawing.Size(75, 40);
+            this.plus.TabIndex = 4;
+            this.plus.Text = "+";
+            this.plus.UseVisualStyleBackColor = false;
+            // 
+            // num3
+            // 
+            this.num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num3.Location = new System.Drawing.Point(169, 230);
+            this.num3.Name = "num3";
+            this.num3.Size = new System.Drawing.Size(75, 40);
+            this.num3.TabIndex = 5;
+            this.num3.Text = "3";
+            this.num3.UseVisualStyleBackColor = false;
+            // 
+            // num2
+            // 
+            this.num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num2.Location = new System.Drawing.Point(88, 230);
+            this.num2.Name = "num2";
+            this.num2.Size = new System.Drawing.Size(75, 40);
+            this.num2.TabIndex = 6;
+            this.num2.Text = "2";
+            this.num2.UseVisualStyleBackColor = false;
+            this.num2.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // num1
+            // 
+            this.num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num1.Location = new System.Drawing.Point(7, 230);
+            this.num1.Name = "num1";
+            this.num1.Size = new System.Drawing.Size(75, 40);
+            this.num1.TabIndex = 7;
+            this.num1.Text = "1";
+            this.num1.UseVisualStyleBackColor = false;
+            // 
+            // minus
+            // 
+            this.minus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.minus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.minus.Location = new System.Drawing.Point(250, 184);
+            this.minus.Name = "minus";
+            this.minus.Size = new System.Drawing.Size(75, 40);
+            this.minus.TabIndex = 8;
+            this.minus.Text = "-";
+            this.minus.UseVisualStyleBackColor = false;
+            // 
+            // num6
+            // 
+            this.num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num6.Location = new System.Drawing.Point(169, 184);
+            this.num6.Name = "num6";
+            this.num6.Size = new System.Drawing.Size(75, 40);
+            this.num6.TabIndex = 9;
+            this.num6.Text = "6";
+            this.num6.UseVisualStyleBackColor = false;
+            // 
+            // num5
+            // 
+            this.num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num5.Location = new System.Drawing.Point(88, 184);
+            this.num5.Name = "num5";
+            this.num5.Size = new System.Drawing.Size(75, 40);
+            this.num5.TabIndex = 10;
+            this.num5.Text = "5";
+            this.num5.UseVisualStyleBackColor = false;
+            // 
+            // num4
+            // 
+            this.num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num4.Location = new System.Drawing.Point(7, 184);
+            this.num4.Name = "num4";
+            this.num4.Size = new System.Drawing.Size(75, 40);
+            this.num4.TabIndex = 11;
+            this.num4.Text = "4";
+            this.num4.UseVisualStyleBackColor = false;
+            // 
+            // multiplication
+            // 
+            this.multiplication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.multiplication.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.multiplication.Location = new System.Drawing.Point(250, 138);
+            this.multiplication.Name = "multiplication";
+            this.multiplication.Size = new System.Drawing.Size(75, 40);
+            this.multiplication.TabIndex = 12;
+            this.multiplication.Text = "*";
+            this.multiplication.UseVisualStyleBackColor = false;
+            // 
+            // num9
+            // 
+            this.num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num9.Location = new System.Drawing.Point(169, 138);
+            this.num9.Name = "num9";
+            this.num9.Size = new System.Drawing.Size(75, 40);
+            this.num9.TabIndex = 13;
+            this.num9.Text = "9";
+            this.num9.UseVisualStyleBackColor = false;
+            // 
+            // num8
+            // 
+            this.num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num8.Location = new System.Drawing.Point(88, 138);
+            this.num8.Name = "num8";
+            this.num8.Size = new System.Drawing.Size(75, 40);
+            this.num8.TabIndex = 14;
+            this.num8.Text = "8";
+            this.num8.UseVisualStyleBackColor = false;
+            // 
+            // num7
+            // 
+            this.num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.num7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.num7.Location = new System.Drawing.Point(7, 138);
+            this.num7.Name = "num7";
+            this.num7.Size = new System.Drawing.Size(75, 40);
+            this.num7.TabIndex = 15;
+            this.num7.Text = "7";
+            this.num7.UseVisualStyleBackColor = false;
+            // 
+            // del
+            // 
+            this.del.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.del.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.del.Location = new System.Drawing.Point(250, 92);
+            this.del.Name = "del";
+            this.del.Size = new System.Drawing.Size(75, 40);
+            this.del.TabIndex = 16;
+            this.del.Text = "/";
+            this.del.UseVisualStyleBackColor = false;
+            // 
+            // persont
+            // 
+            this.persont.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.persont.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.persont.Location = new System.Drawing.Point(169, 92);
+            this.persont.Name = "persont";
+            this.persont.Size = new System.Drawing.Size(75, 40);
+            this.persont.TabIndex = 17;
+            this.persont.Text = "%";
+            this.persont.UseVisualStyleBackColor = false;
+            // 
+            // st
+            // 
+            this.st.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.st.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.st.Location = new System.Drawing.Point(88, 92);
+            this.st.Name = "st";
+            this.st.Size = new System.Drawing.Size(75, 40);
+            this.st.TabIndex = 18;
+            this.st.Text = "^";
+            this.st.UseVisualStyleBackColor = false;
+            // 
+            // log
+            // 
+            this.log.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.log.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.log.Location = new System.Drawing.Point(7, 92);
+            this.log.Name = "log";
+            this.log.Size = new System.Drawing.Size(75, 40);
+            this.log.TabIndex = 19;
+            this.log.Text = "lg";
+            this.log.UseVisualStyleBackColor = false;
+            // 
+            // Вывод
+            // 
+            this.Вывод.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.Вывод.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Вывод.Location = new System.Drawing.Point(7, 46);
+            this.Вывод.Name = "Вывод";
+            this.Вывод.Size = new System.Drawing.Size(318, 40);
+            this.Вывод.TabIndex = 20;
+            this.Вывод.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(337, 328);
+            this.Controls.Add(this.Вывод);
+            this.Controls.Add(this.log);
+            this.Controls.Add(this.st);
+            this.Controls.Add(this.persont);
+            this.Controls.Add(this.del);
+            this.Controls.Add(this.num7);
+            this.Controls.Add(this.num8);
+            this.Controls.Add(this.num9);
+            this.Controls.Add(this.multiplication);
+            this.Controls.Add(this.num4);
+            this.Controls.Add(this.num5);
+            this.Controls.Add(this.num6);
+            this.Controls.Add(this.minus);
+            this.Controls.Add(this.num1);
+            this.Controls.Add(this.num2);
+            this.Controls.Add(this.num3);
+            this.Controls.Add(this.plus);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.equals);
+            this.Controls.Add(this.comma);
+            this.Controls.Add(this.zero);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Button zero;
+        private Button comma;
+        private Button equals;
+        private Button button4;
+        private Button plus;
+        private Button num3;
+        private Button num2;
+        private Button num1;
+        private Button minus;
+        private Button num6;
+        private Button num5;
+        private Button num4;
+        private Button multiplication;
+        private Button num9;
+        private Button num8;
+        private Button num7;
+        private Button del;
+        private Button persont;
+        private Button st;
+        private Button log;
+        private Button Вывод;
+    }
+}
